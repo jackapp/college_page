@@ -1,0 +1,56 @@
+/* 
+Fantasy Template 
+http://www.templatemo.com/preview/templatemo_393_fantasy 
+*/
+
+
+.templatemo-logo { margin: 12px; }
+
+
+.navbar { border: none; }
+.navbar.templatemo-mobile-menu {
+	position: fixed;
+	top: 29px;
+	right: 2px;
+	z-index: 1000;
+}
+.nav > li > a:hover { background-color: red; }
+.nav-justified > li > a { color: black;	background: #3cb371; }
+.navbar-header h2 { letter-spacing: 2px; padding-left: 20px; }
+.navbar-toggle { background-color: rgba(161, 0, 0, 0.7); border-radius: 0; }
+.navbar-toggle:focus { outline: none;  }
+.navbar-collapse { padding-left: 0; padding-right: 0; }
+.icon-bar { background-color: #fff; }
+.navbar-form { margin-left: 2px; margin-right: 2px; margin-top: 25px; }
+
+
+
+
+/* mobile styles */
+@media only screen and (max-width: 480px) {
+	h2 { margin-bottom: 5px; }
+	.navbar-form { margin-top: 0px; width: 100%; }
+	.templatemo-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
+	.nav-justified > li > a { padding-left: 40px; padding-right: 40px; }
+}
+
+/* tablet styles */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	h2 { margin-bottom: 5px; }
+	.navbar-form { margin-top: 0px; width: 100%; }
+	.templatemo-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
+	.nav-justified > li > a { padding-left: 40px; padding-right: 40px; }
+}
+
+/* desktop styles */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-header h2{ margin: 0px; margin-top: 34px; }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.navbar-header h2{ margin: 0px; margin-top: 34px; }
+	
+}
+@media only screen and (min-width: 1200px) {
+
+}
